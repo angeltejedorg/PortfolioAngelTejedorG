@@ -1,0 +1,117 @@
+/* RESET ES PARA PROPIEDADES QUE VAN A SER GENERAL Y NO SE CAMBIARAN Y PARA REUTILIZARLOS */
+
+*,
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ body {
+    background-color: #111111;
+ }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* HELPERS */
+.container {
+    width: 94%;
+    margin: auto;
+}
+
+.d-flex {
+    display:flex;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.size-logo {
+    width:35%;
+}
+
+.round-icon {
+    position: absolute;
+    background-color: #2B2A2A;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    top:0;
+    right:0;
+    overflow: hidden;  
+}
+
+.active {
+    background-color:#F72B1C;
+}
+
+
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.colorp1{
+    background: blue;
+}
+.colorp2{
+    background: red;
+}
+
+.m-10 {
+    margin-top: 10px;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.separator {
+    border:0;
+    border-top: 0.1px solid;
+    margin: 70px auto 55px;
+    max-width: 30%;
+    border-color: #252525;
+    height:0;
+}
+
+.skill-logo {
+    width: 35%;
+}
+
+.bg-red {
+    background-color: #F72B1C;
+}
+
+.text-red {
+    color: #F72B1C;
+}
+
+.text-white {
+    color:#ffffff;
+}
+
+.font-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
