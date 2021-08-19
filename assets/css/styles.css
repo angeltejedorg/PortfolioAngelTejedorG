@@ -226,8 +226,8 @@ nav {
 
 .menu-btn {
     position: fixed;
-    top:30px;
-    right: 30px;
+    top:20px;
+    right: 20px;
     width: 54px;
     height: 54px;
     cursor: pointer;
