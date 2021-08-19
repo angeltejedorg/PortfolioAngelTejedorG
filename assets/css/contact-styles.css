@@ -1,9 +1,9 @@
 .container-contact {
     width: 90%;
     color: #ffffff;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
     box-sizing: border-box;
+    margin-bottom: 60px;
     
 }
 .general-info {
